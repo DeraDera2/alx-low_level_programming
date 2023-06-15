@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c "$CFILE" -o unlink.o
+gcc -c "$CFILE" -o "unlink.o"
