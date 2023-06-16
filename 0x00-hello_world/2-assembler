@@ -1,2 +1,2 @@
 #!/bin/bash
-main="${CFILE%.*}"; gcc -c "$CFILE" -o "$main.o"
+main="${CFILE%.*}"; gcc -S "$CFILE" -o "$main.s"
