@@ -8,6 +8,8 @@
  */
 /*Function prototype*/
 void print_alphabet(void);
+int _putchar(char c);
+
 int main(void)
 {
 	print_alphabet();
@@ -26,10 +28,18 @@ void print_alphabet(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar(letter);
+		_putchar(letter);
 		letter++;
 	}
 
-	putchar('\n');
+	_putchar('\n');
+}
+/**
+ * _putchar - prints
+ *
+ */
+int _putchar(char c)
+{
+	return (putchar(c));
 }
 
