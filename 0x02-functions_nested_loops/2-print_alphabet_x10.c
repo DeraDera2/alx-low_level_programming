@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_alphabets_x10 - Prints alphabets 10x
@@ -18,4 +18,4 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-
+}
