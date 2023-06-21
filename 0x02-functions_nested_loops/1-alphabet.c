@@ -8,7 +8,6 @@
  */
 /*Function prototype*/
 void print_alphabet(void);
-int _putchar(char c);
 
 int main(void)
 {
@@ -34,12 +33,5 @@ void print_alphabet(void)
 
 	_putchar('\n');
 }
-/**
- * _putchar - prints
- *
- */
-int _putchar(char c)
-{
-	return (putchar(c));
-}
+
 
