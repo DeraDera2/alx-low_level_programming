@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <math.h>
 
 /**
  * print_to_98 - Description: Prints to 98 and back
