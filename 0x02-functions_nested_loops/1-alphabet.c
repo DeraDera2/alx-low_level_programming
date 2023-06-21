@@ -27,11 +27,11 @@ void print_alphabet(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		_putchar(letter);
+		putchar(letter);
 		letter++;
 	}
 
-	_putchar('\n');
+	putchar('\n');
 }
 
 
