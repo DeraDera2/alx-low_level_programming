@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabets_x10 - Prints alphabets 10x
+ * print_alphabet_x10 - Description:  Prints alphabets 10x
  *
  * Return - Always 0.
  */
@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 	char c;
 	int i;
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i < 10; i++)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
