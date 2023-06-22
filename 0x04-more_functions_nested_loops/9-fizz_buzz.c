@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Description: Checks the code
  * Return: Int
