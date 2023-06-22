@@ -4,11 +4,9 @@
  * Return - Always 0
  * @n: parameter
  */
-void print_line(int n);
+void print_line(int n)
 {
-	int i;
-
-	i = 0;
+	int i = 0;
 
 	while (i < n)
 	{
