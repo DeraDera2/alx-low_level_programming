@@ -3,12 +3,12 @@
 /**
  * add - Description: adds two integers
  * Return: a result
- * @int: parameter
- * @int: parameter
+ * @num1: parameter
+ * @num2: parameter
  */
-int add(int, int)
+int add(int num1, int num2)
 {
-	int result = add(num1, num2);
+	int result = num1 + num2;
 
 	return (result);
 }
