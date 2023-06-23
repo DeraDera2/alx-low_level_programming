@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Description: Checks the code
- * Return: Int
+ * Return: Always 0
  */
 int main(void)
 {
