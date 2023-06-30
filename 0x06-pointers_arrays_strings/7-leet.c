@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * leet - Description: Encodes a string
- * @n: String
- * Return: String
+ * leet - Encodes a string using leet (1337) encoding.
+ * @n: The input string.
+ *
+ * Return: Pointer to the modified string.
  */
 char *leet(char *n)
 {
@@ -13,7 +14,7 @@ char *leet(char *n)
 	for (i = 0; n[i] != '\0'; i++)
 	{
 		for (j = 0; j < 10; j++)
-		{	
+		{
 			if (n[i] == s1[j])
 			{
 				n[i] = s2[j];
