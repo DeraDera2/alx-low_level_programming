@@ -1,1 +1,1 @@
-C program
+Variadic functions
